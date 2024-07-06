@@ -1,0 +1,55 @@
+{
+  "name": "next-template-boilerplate",
+  "description": "Next12 boilerplate",
+  "license": "MIT",
+  "version": "1.0.0",
+  "author": {
+    "name": "templateName",
+    "url": "https://example.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/.git"
+  },
+  "keywords": ["boilerplate tags"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "lint": "eslint --fix \"src/**/*.{js,jsx}\"",
+    "format": "prettier --write \"src/**/*.{js,jsx}\""
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.6.0",
+    "@emotion/react": "^11.7.0",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.15.20",
+    "@mui/lab": "^5.0.0-alpha.70",
+    "@mui/material": "^5.4.3",
+    "axios": "^1.6.8",
+    "dayjs": "^1.11.10",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^8.5.1",
+    "next": "12.0.4",
+    "nprogress": "^0.2.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-next": "12.0.4",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "next-transpile-modules": "^9.0.0",
+    "prettier": "2.5.1"
+  }
+}
